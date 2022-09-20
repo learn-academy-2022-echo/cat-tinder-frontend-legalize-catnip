@@ -16,6 +16,8 @@
 .Top {
   background-image: url(" https://i.imgur.com/S1NYfNP.jpg");
   background-color: teal;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
   color: red;
   font-size: larger;
 
