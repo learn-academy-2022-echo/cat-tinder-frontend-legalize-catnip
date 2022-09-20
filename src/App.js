@@ -35,13 +35,6 @@ const App = () => {
 
   );
 }
-{/* <Home />
-      <CatIndex />
-      <CatShow />
-      <CatNew />
-      <CatEdit />
-      <NotFound /> */}
-
 
 
 export default App;
