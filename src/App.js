@@ -18,7 +18,6 @@ const App = () => {
   return (
 
     <div>
-      App
       <Header />
 
       <Routes>

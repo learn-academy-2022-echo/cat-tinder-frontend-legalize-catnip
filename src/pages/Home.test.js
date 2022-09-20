@@ -5,7 +5,7 @@ describe ("<Home/>", () => {
     test("render the home page Jason", () => {
         render(<Home/>)
         
-        const element = screen.getByText(/It is a home for Cat Tinder/i)
+        const element = screen.getByText(/Welcome to Cat Tinder/i)
         
 
        expect(element).toBeInTheDocument()

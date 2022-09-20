@@ -3,7 +3,8 @@ import React from "react"
 
 const Header = () => {
     return(
-    <div>Header for cat Tinder</div>
+    <div className="Top">Cat Tinder
+        </div>
     )
 }
 

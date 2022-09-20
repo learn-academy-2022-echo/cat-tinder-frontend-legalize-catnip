@@ -2,7 +2,8 @@ import React from "react";
 
 const Home = () => {
     return(
-    <div>It is a home for Cat Tinder</div>
+    <div className="Body">Welcome to Cat Tinder
+    </div>
     )
 }
 
