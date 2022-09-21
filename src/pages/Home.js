@@ -2,8 +2,9 @@ import React from "react";
 
 const Home = () => {
     return(
-    <div className="Body">Welcome to Cat Tinder
-    <p>For Single cats ready to mingle</p>
+    <div className="Body">
+        <p >Welcome to Cat Tinder</p>
+    <p >For Single cats ready to mingle</p>
     </div>
     )
 }

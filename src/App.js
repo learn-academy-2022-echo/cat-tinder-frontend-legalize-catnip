@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import './App.css';
+import './index.css';
 import CatEdit from "./pages/CatEdit";
 import CatIndex from "./pages/CatIndex";
 import CatNew from "./pages/CatNew";
@@ -10,6 +11,7 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import { Routes, Route } from "react-router-dom";
 import cats from "./mockCats";
+
 
 const App = () => {
 
