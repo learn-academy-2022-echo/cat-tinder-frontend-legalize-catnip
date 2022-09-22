@@ -4,7 +4,7 @@ const cats = [
         name: "Grand Maester",
         age: "4 years old",
         enjoys: "Enjoys Catnip, exercising",
-        image: "Abysinian Cat 1.jpg",
+        image: "AbyssinianCat1.jpg",
         
     },
     {
@@ -12,7 +12,7 @@ const cats = [
         name: "Sharkato",
         age: "5 years old",
         enjoys: "Enjoys cosplay, hunting",
-        image: "Abysinian Cat 2.jpg"
+        image: "AbyssinianCat2.jpg"
     },
 
     {
@@ -20,7 +20,7 @@ const cats = [
         name: "Home Wrecker",
         age: "6 years old",
         enjoys: "Enjoys jewlery, vacations",
-        image: "Abyssinian Cat 3.jpg"
+        image: "AbyssinianCat3.jpg"
     },
 
     {
@@ -28,7 +28,7 @@ const cats = [
         name: "Joker",
         age: "3 years old",
         enjoys: "Enjoys prank calls, watching movies",
-        image: "Abysinian cat 5.jpg"
+        image: "AbyssinianCat5.jpg"
     }
 ]
 export default cats
