@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import './App.css';
@@ -10,7 +10,7 @@ import CatShow from "./pages/CatShow";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import { Routes, Route } from "react-router-dom";
-import cats from "./mockCats";
+import mockCats from "./mockCats";
 
 
   

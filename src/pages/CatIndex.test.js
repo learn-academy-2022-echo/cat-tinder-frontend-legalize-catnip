@@ -14,8 +14,8 @@ describe("<CatIndex/>", () => {
     )
     // Act 
     mockCats.forEach(cat => {
-      const meowElement = screen.getByText(cat.name)
-      expect(meowElement).toBeInTheDocument()
+      const catElement = screen.getByText(cat.name)
+      expect(catElement).toBeInTheDocument()
     })
     // Assert
 
