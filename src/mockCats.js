@@ -1,18 +1,34 @@
-
 const cats = [
     {
         id: 1,
-        name: "Grand Maester Cat",
-        age: 4,
-        enjoys: "Catnip",
-        image: "https://unsplash.com/photos/bSOJY2RrmGg"
+        name: "Grand Maester",
+        age: "4 years old",
+        enjoys: "Enjoys Catnip, exercising",
+        image: "AbyssinianCat1.jpg",
+        
     },
     {
         id: 2,
-        name: "sharkato",
-        age: 2,
-        enjoys: "cosplay",
-        image: "https://katzenworld.co.uk/2019/06/30/mews-funny-cat-picture-collection/#jp-carousel-1624"
+        name: "Sharkato",
+        age: "5 years old",
+        enjoys: "Enjoys cosplay, hunting",
+        image: "AbyssinianCat2.jpg"
+    },
+
+    {
+        id: 3,
+        name: "Home Wrecker",
+        age: "6 years old",
+        enjoys: "Enjoys jewlery, vacations",
+        image: "AbyssinianCat3.jpg"
+    },
+
+    {
+        id: 4,
+        name: "Joker",
+        age: "3 years old",
+        enjoys: "Enjoys prank calls, watching movies",
+        image: "AbyssinianCat5.jpg"
     }
 ]
 export default cats
