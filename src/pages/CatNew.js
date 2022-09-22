@@ -28,7 +28,7 @@ const CatNew = ({ createCat }) => {
 
   return (
     <>
-      <h2> Add a feline </h2>
+      <h2> Add a cat </h2>
       <Form>
         <FormGroup>
           <Label for="name">
