@@ -3,7 +3,7 @@ import { Card, CardBody, CardTitle, Button } from 'reactstrap'
 import { NavLink } from 'react-router-dom'
 import { BrowserRouter } from "react-router-dom";
 
-const CatIndex = ({ cats }) => {
+const CatIndex = ({ cats, readCat }) => {
     
     return (
         
