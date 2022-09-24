@@ -16,7 +16,6 @@
 
 .Top {
   border: radius 1px;
-  background-image: url("https://images.unsplash.com/photo-1612230800617-62f7eab39dfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2662&q=80");
   /* background-color: rgb(128, 0, 45); */
   background-repeat: no-repeat;
   background-position: center;
@@ -26,7 +25,7 @@
 }
 
 .Body {
-  background:url(" https://images.alphacoders.com/772/772444.jpg ");
+  background-image: url("/public/background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
@@ -36,8 +35,9 @@
   flex-direction: column;
   align-items: center;
   justify-content:flex-start;
-  font-size:xx-large;
-  color: #160070;
+  font-size:40px;
+  font-weight: 1000;
+  color: #e600ff;
   font-family: 'Love Ya Like A Sister', cursive;
 }
 

@@ -28,7 +28,7 @@ const CatIndex = ({ cats, readCat }) => {
                   {cat.name}
                 </CardTitle>
                 <NavLink to={`/catshow/${cat.id}`} className="nav-link">
-                  <Button>
+                  <Button >
                     See more details
                   </Button>
                 </NavLink>
