@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <Nav fill pills>
             <NavItem>
-                <NavLink active href="/">
+                <NavLink color="info" active href="/">
                     Cat Tinder
                 </NavLink>
             </NavItem>
@@ -20,8 +20,8 @@ const Header = () => {
                 </NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="#">
-                    Adopt a cat
+                <NavLink href="https://www.youtube.com/watch?v=nsveYu-IDLg">
+                    Pickup tips
                 </NavLink>
             </NavItem>
         </Nav>

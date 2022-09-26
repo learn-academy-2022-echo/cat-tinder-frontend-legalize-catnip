@@ -11,13 +11,13 @@ const CatShow = ({ cats }) => {
   return (
 
     <div id="show-profile">
-      <Card className="my-2">
+      <Card className="card-header">
         <img
           alt="Card image cap"
           src={cat.image}
         />
         <CardBody>
-          <CardTitle tag="h5">
+          <CardTitle tag="h2">
             {cat.name}, {cat.age}
           </CardTitle>
           <CardText>
