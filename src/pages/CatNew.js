@@ -36,7 +36,7 @@ const CatNew = ({ createCat }) => {
           </Label>
           <Input
             name="name"
-            placeholder="Type in cat name"
+            placeholder="Type in cat's name"
             type="text"
             onChange={handleCats}
             value={newCat.name}
@@ -48,7 +48,7 @@ const CatNew = ({ createCat }) => {
           </Label>
           <Input
             name="age"
-            placeholder="Type in cat name"
+            placeholder="Type in cat's age"
             type="number"
             onChange={handleCats}
             value={newCat.age}
@@ -60,7 +60,7 @@ const CatNew = ({ createCat }) => {
           </Label>
           <Input
             name="enjoys"
-            placeholder="There goes the cat"
+            placeholder="Interests"
             type="text"
             onChange={handleCats}
             value={newCat.enjoys}
@@ -72,7 +72,7 @@ const CatNew = ({ createCat }) => {
           </Label>
           <Input
             name="image"
-            placeholder="Get in"
+            placeholder="image URL"
             type="url"
             onChange={handleCats}
             value={newCat.image}

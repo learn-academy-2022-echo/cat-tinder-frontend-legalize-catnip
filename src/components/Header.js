@@ -1,25 +1,32 @@
 import React from "react"
+import { NavLink, Nav, NavItem } from 'reactstrap'
 
 const Header = () => {
     return (
-        <div className="Top">
-
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">Cat Tinder</a>
-                </li>
-                <div class="divider" />
-                <li class="nav-item">
-                    <a class="nav-link active" href="CatIndex">See our cats</a>
-                </li>
-                <div class="divider" />
-                <li class="nav-item">
-                    <a class="nav-link active" href="CatNew">Add a new cat</a>
-                </li>
-            </ul>
-
-        </div>
+        <Nav fill pills>
+            <NavItem>
+                <NavLink color="info" active href="/">
+                    Cat Tinder
+                </NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink href="CatIndex">
+                    See the Cats
+                </NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink href="CatNew">
+                    Add a cat
+                </NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink href="https://www.youtube.com/watch?v=nsveYu-IDLg">
+                    Pickup tips
+                </NavLink>
+            </NavItem>
+        </Nav>
     )
 }
+
 
 export default Header
